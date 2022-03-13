@@ -1,0 +1,32 @@
+{
+  "name": "j-medic-api",
+  "version": "1.0.0",
+  "description": "Haciendo j-medic con una API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xVyrusz/j-medic-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xVyrusz/j-medic-api/issues"
+  },
+  "homepage": "https://github.com/xVyrusz/j-medic-api#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
